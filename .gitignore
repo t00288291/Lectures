@@ -1,0 +1,85 @@
+# Ignore node_modules directory (common in Node.js projects)
+node_modules/
+
+# Ignore environment variable files
+.env
+
+# Ignore build output directories
+/dist/
+/build/
+/out/
+
+# Ignore log files
+*.log
+
+# Ignore package-lock.json or yarn.lock files
+package-lock.json
+yarn.lock
+
+# Ignore system files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore compiled Python files (if you're using Python)
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore compiled Java files (if you're using Java)
+*.class
+
+# Ignore JavaScript source maps
+*.map
+
+# Ignore coverage directory (commonly created by testing tools like Jest)
+coverage/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Ignore test output and temporary files
+test-results/
+*.test.js
+
+# Ignore compiled C/C++ files
+*.o
+*.a
+*.so
+
+# Ignore Ruby-related files
+*.gem
+*.rbc
+*.bundle
+
+# Ignore virtual environment directories (Python, Ruby, etc.)
+.venv/
+env/
+venv/
+
+# Ignore Maven and Gradle build directories
+target/
+build/
+
+# Ignore .git directories inside submodules
+.gitmodules
+
+# Ignore generated files from various compilers or bundlers
+*.min.js
+*.min.css
+
+# Ignore coverage and profiling reports
+coverage/
+*.lcov
